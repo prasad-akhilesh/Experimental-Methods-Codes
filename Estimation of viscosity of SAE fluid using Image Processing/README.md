@@ -4,7 +4,7 @@ The overview of workflow for analyzing the image processing algorithm:
 - Processing the displacement-time data to calculate the velocity of the balls
 - Uncertainty in determination of viscosity of a fluid
 
-In the main program we call the <code>track_ball()<\code> and the <code>smooth_vel()<\code> functions to carry
+In the main program we call the <code>track_ball()</code> and the <code>smooth_vel()</code> functions to carry
 out the uncertainty analysis. The process flow is described below:
 - First we create the file path in two separate variables, one is the folder location and the other the file name in that folder location.
 - A check for the file name is carried out, which then sets the values of the variables to be supplied to the track ball() function. These values been arrived at by trial and error.
